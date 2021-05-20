@@ -139,7 +139,7 @@ if __name__ == '__main__':
         try:
             c = int(input("Enter your choice:- "))
         except ValueError:
-            print("Sorry! you choice is invalid. Please try again")
+            print("Sorry! your choice is invalid. Please try again")
             continue
         if c == 0:
             break
